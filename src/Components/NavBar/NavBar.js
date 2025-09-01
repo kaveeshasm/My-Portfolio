@@ -1,28 +1,79 @@
-import React from 'react'
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
+import React, { useState } from "react";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import Box from "@mui/material/Box";
+import { IoClose, IoMenu } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import { FaHome, FaUser, FaFolderOpen } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
-function navbar() {
+function NavBar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const menuItems = [
+    { name: "Home", link: "/" },
+    { name: "About Me", link: "/about" },
+    { name: "Projects", link: "/projects" },
+    { name: "Contact", link: "/contact" },
+  ];
+
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar className='!bg-black'>
-          <div className='flex align-middle'>
-            <span className='text-left ml-4 lg:ml-7 text-lg lg:text-3xl'>Kaveesha Sandeepani</span>
-            <div className='ml-[50rem] align-middle'>
-              <button className='mr-6'>Home</button>
-              <button className='mr-6'>About Me</button>
-              <button className='mr-6'>Projects</button>
-              <button className='mr-6'>Contact Me</button>
-            </div>
+      <AppBar position="static" className="!bg-black">
+        <Toolbar className="flex justify-between items-center">
+          <span className="text-lg lg:text-2xl font-bold text-white">
+            Kaveesha Sandeepani
+          </span>
+
+          <div className="hidden md:flex space-x-6 text-white">
+            {menuItems.map((item) => (
+              <Link
+                key={item.name}
+                to={item.link}
+                className="flex items-center space-x-2 whitespace-nowrap hover:text-gray-300 transition-colors"
+              >
+                {item.name === "Home" && <FaHome size={18} />}
+                {item.name === "About Me" && <FaUser size={18} />}
+                {item.name === "Projects" && <FaFolderOpen size={18} />}
+                {item.name === "Contact" && <IoMdMail size={18} />}
+                <span>{item.name}</span>
+              </Link>
+            ))}
           </div>
+
+          <div className="md:hidden text-white">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="focus:outline-none"
+            >
+              {isOpen ? <IoClose size={24} /> : <IoMenu size={24} />}
+            </button>
+          </div>
+        </Toolbar>
       </AppBar>
+
+      {isOpen && (
+        <div className="md:hidden bg-black border-t border-white/10">
+          <div className="px-4 py-3 space-y-2 text-white">
+            {menuItems.map((item) => (
+              <Link
+                key={item.name}
+                to={item.link}
+                className="flex items-center space-x-2 whitespace-nowrap block py-2 hover:text-gray-300 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                {item.name === "Home" && <FaHome size={18} />}
+                {item.name === "About Me" && <FaUser size={18} />}
+                {item.name === "Projects" && <FaFolderOpen size={18} />}
+                {item.name === "Contact" && <IoMdMail size={18} />}
+                <span>{item.name}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </Box>
-    
-  )
+  );
 }
 
-export default navbar
+export default NavBar;
