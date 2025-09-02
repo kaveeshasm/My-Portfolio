@@ -19,7 +19,7 @@ function NavBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" className="!bg-black">
+      <AppBar position="static" className="!bg-[#1a1a1a]">
         <Toolbar className="flex justify-between items-center">
           <span className="text-lg lg:text-2xl font-bold text-white">
             Kaveesha Sandeepani
