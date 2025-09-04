@@ -15,11 +15,11 @@ function Home() {
           <span className='text-lg font-poppins text-cyan-700 lg:text-[1.1rem]'>Undergraduate at the Faculty of Computing, Sabaragamuwa University of Sri Lanka.</span><br /><br />
           <span className='text-base font-openSans lg:text-[1.1rem]'>I focus on building clean, responsive, and user-friendly frontend experiences, while continuously exploring modern technologies.</span>
 
-          <div className='mt-[4rem]'>
-            <button className='flex items-center justify-center lg:w-[10rem] lg:h-[5rem] border-2 border-[#00e6e6] rounded-xl hover:animate-moveAround hover:shadow-[0_0_20px_5px_#00e6e6]'><FaUser className='flex mr-[1rem] text-lg text-[#00e6e6]' /><span className='text-[#00e6e6]'>About Me</span></button>
+          <div className='flex justify-center lg:justify-start mt-[2.5rem] lg:mt-[4rem]'>
+            <button className='flex items-center justify-center w-[10rem] h-[2.5rem] lg:w-[10rem] lg:h-[5rem] border-2 border-[#00e6e6] rounded-xl hover:animate-moveAround hover:shadow-[0_0_20px_5px_#00e6e6]'><FaUser className='flex mr-[1rem] lg:text-lg text-[#00e6e6]' /><span className='text-[#00e6e6]'>About Me</span></button>
           </div>
 
-          <div className='mt-[3.5rem]'>
+          <div className='mt-[2.5rem] lg:mt-[3.5rem]'>
             <span className='text-white text-[1.5rem] lg:text-[2rem] font-raleway'>Reach Out</span><br />
             <div className='flex justify-center text-[2rem] lg:justify-start lg:text-[3rem] gap-2'>
               <a href='https://www.linkedin.com/in/kaveesha-sandeepani-836411334/'><FaLinkedin className='text-[#0A66C2] hover:rotate-12' /></a>
