@@ -2,19 +2,6 @@ import React from 'react'
 
 function AboutMe(){
 
-    const skills = [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Tailwind",
-        "Git",
-        "GitHub",
-        "Vercel",
-        "Figma",
-        "Canva",
-    ];
-
     return(
         <div className='content-center mt-[2.7rem] lg:mt-[4rem]'>
             <div className='flex justify-center'><span className='text-[#00e6e6] text-[2rem] lg:text-[3rem] font-inter animate-pulse drop-shadow-[0_0_20px_#00ffff] drop-shadow-[0_0_40px_#00ffff]'>About Me</span></div>
