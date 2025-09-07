@@ -20,7 +20,7 @@ function NavBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" className="!bg-[#1a1a1a]">
         <Toolbar className="flex justify-between items-center">
-          <span className="text-lg lg:text-2xl font-bold text-white">
+          <span className="text-lg lg:text-2xl font-inter font-bold text-[#00e6e6] drop-shadow-[0_0_10px_#00ffff]">
             Kaveesha Sandeepani
           </span>
 
