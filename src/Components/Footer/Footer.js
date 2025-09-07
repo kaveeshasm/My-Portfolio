@@ -8,7 +8,7 @@ function Footer() {
     <div className="bg-[#1a1a1a] mt-[1rem]">
       <div className='lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-8'>
         <div className='ml-[2rem] lg:ml-0 lg:mt-[3rem] mb-[3rem]'>
-          <span className=' text-[#00e6e6] text-[1.5rem] font-inter'>Quick Links</span>
+          <span className='text-[#00e6e6] text-[1.5rem] font-inter'>Quick Links</span>
           <div className='mt-[0.6rem]'>
             <a href='#home' className='flex items-center gap-2'><FaHome className='text-white'/><span className='text-white'>Home</span></a>
             <a href='#about' className='flex items-center gap-2'><FaUser className='text-white'/><span className='text-white'>About Me</span></a>
