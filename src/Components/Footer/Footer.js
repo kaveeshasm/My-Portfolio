@@ -6,9 +6,9 @@ import { MdOutlineMail } from "react-icons/md";
 function Footer() {
   return (
     <div className="bg-[#1a1a1a] mt-[1rem]">
-      <div className='flex flex-col items-center lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-8'>
-        <div className='flex flex-col items-center lg:items-start mt-[3rem] mb-[3rem]'>
-          <span className='text-[#00e6e6] text-[1.5rem] font-inter'>Quick Links</span>
+      <div className='lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-8'>
+        <div className='ml-[2rem] lg:ml-0 lg:mt-[3rem] mb-[3rem]'>
+          <span className=' text-[#00e6e6] text-[1.5rem] font-inter'>Quick Links</span>
           <div className='mt-[0.6rem]'>
             <a href='#home' className='flex items-center gap-2'><FaHome className='text-white'/><span className='text-white'>Home</span></a>
             <a href='#about' className='flex items-center gap-2'><FaUser className='text-white'/><span className='text-white'>About Me</span></a>
@@ -16,9 +16,9 @@ function Footer() {
             <a href='#contact' className='flex items-center gap-2'><IoMdMail className='text-white'/><span className='text-white'>Contact</span></a>
           </div>
         </div>
-        <div className='lg:mt-[3rem] mb-[3rem]'>
-          <span className='flex flex-col items-center lg:items-start text-[#00e6e6] text-[1.5rem] font-inter'>Reach Out</span>
-          <div className='flex flex-col items-center lg:items-start mt-[0.6rem]'>
+        <div className='ml-[2rem] lg:ml-0 lg:mt-[3rem] mb-[3rem]'>
+          <span className='text-[#00e6e6] text-[1.5rem] font-inter'>Reach Out</span>
+          <div className='mt-[0.6rem]'>
             <a href='mailto:kaveeshasandeepanim@gmail.com' className='flex items-center gap-2 text-white'><MdOutlineMail className='text-[1.2rem]'/><span className='text-[1.1rem]'>kaveeshasandeepanim@gmail.com</span></a>
             <a href='https://www.linkedin.com/in/kaveesha-sandeepani-836411334/' className='flex items-center gap-2 text-white'><FaLinkedin className='text-[1.2rem]'/><span className='text-[1.1rem]'>LinkedIn</span></a>
             <a href='https://www.facebook.com/share/1Z4jWtV1zU/' className='flex items-center gap-2 text-white'><FaFacebook className='text-[1.2rem]'/><span className='text-[1.1rem]'>Facebook</span></a>
