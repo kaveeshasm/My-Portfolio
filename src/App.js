@@ -27,13 +27,6 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
-      
-      {/* <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes> */}
     </Router>
     </div>
   );

@@ -16,7 +16,7 @@ function Home() {
           <span className='text-base font-openSans lg:text-[1.1rem]'>I focus on building clean, responsive, and user-friendly frontend experiences, while continuously exploring modern technologies.</span>
 
           <div className='flex justify-center lg:justify-start mt-[2.5rem] lg:mt-[4rem]'>
-            <button className='flex items-center justify-center w-[10rem] h-[2.5rem] lg:w-[10rem] lg:h-[5rem] border-2 border-[#00e6e6] rounded-xl hover:animate-moveAround hover:shadow-[0_0_20px_5px_#00e6e6]'><FaUser className='flex mr-[1rem] lg:text-lg text-[#00e6e6]' /><span className='text-[#00e6e6]'>About Me</span></button>
+            <a href='#about'><button className='flex items-center justify-center w-[10rem] h-[2.5rem] lg:w-[10rem] lg:h-[5rem] border-2 border-[#00e6e6] rounded-xl hover:animate-moveAround hover:shadow-[0_0_20px_5px_#00e6e6]'><FaUser className='flex mr-[1rem] lg:text-lg text-[#00e6e6]' /><span className='text-[#00e6e6]'>About Me</span></button></a>
           </div>
 
           <div className='mt-[2.5rem] lg:mt-[3.5rem]'>

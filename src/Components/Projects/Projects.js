@@ -10,7 +10,7 @@ function Projects() {
       <div className='flex justify-center'><span className='text-[#00e6e6] text-[2rem] lg:text-[3rem] font-inter animate-pulse drop-shadow-[0_0_20px_#00ffff] drop-shadow-[0_0_40px_#00ffff]'>My Projects</span></div>
 
       <div className='mt-[2.5rem] lg:flex lg:justify-center lg:gap-28 lg:mt-[3rem]'>
-        <div className='ml-[1.9rem] h-[32rem] w-[22rem] border-2 border-white rounded-[1rem] lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem]'>
+        <div className='ml-[1.9rem] h-[32rem] w-[22rem] border-2 border-white rounded-[1rem] lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
           <img src={WebifyMe} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] h-[12rem] w-[22rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' />
           <div className='ml-[0.7rem] mt-[0.5rem] lg:ml-[0.7rem] lg:mt-[0.5rem] lg:mr-[0.7rem]'>
             <span className='text-white font-raleway text-[1.5rem]'>Webify.me</span><br />
@@ -29,20 +29,22 @@ function Projects() {
               </div>
             </div>
             <div className='mt-[1.7rem] flex gap-4 lg:mt-[3.2rem]'>
-              <a>
+              <a href='https://webifyme.vercel.app/'>
                 <div className='lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]'>
                   <PiGlobeThin className='lg:h-[2rem] lg:w-[2rem] text-white '/>
                 </div>
               </a>
-              <div className='lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]'>
-                <FaGithub className='lg:h-[2rem] lg:w-[2rem] text-white'/>
-              </div>
+              <a href='https://github.com/nngeek195/webify.me'>
+                <div className='lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]'>
+                  <FaGithub className='lg:h-[2rem] lg:w-[2rem] text-white'/>
+                </div>
+              </a>
             </div>
           </div>
         </div>
 
 
-        <div className='ml-[1.9rem] h-[30rem] w-[22rem] border-2 border-white mt-[2.5rem] rounded-[1rem] lg:mt-0 lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem]'>
+        <div className='ml-[1.9rem] h-[30rem] w-[22rem] border-2 border-white mt-[2.5rem] rounded-[1rem] lg:mt-0 lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
           <img src={ApexHealth} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' />
           <div className='ml-[0.7rem] mt-[0.5rem] lg:ml-[0.7rem] lg:mt-[0.5rem]'>
             <span className='text-white font-raleway text-[1.5rem]'>Apex Health Hospital</span><br />
@@ -59,14 +61,16 @@ function Projects() {
               </div>
             </div>
             <div className='mt-[1.7rem] flex gap-4 lg:mt-[3.2rem]'>
-              <a>
+              <a href='https://apexhealth.vercel.app/'>
                 <div className='lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]'>
                   <PiGlobeThin className='lg:h-[2rem] lg:w-[2rem] text-white '/>
                 </div>
               </a>
-              <div className='lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]'>
-                <FaGithub className='lg:h-[2rem] lg:w-[2rem] text-white'/>
-              </div>
+              <a href='https://github.com/kaveeshasm/ApexHealth'>
+                <div className='lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]'>
+                  <FaGithub className='lg:h-[2rem] lg:w-[2rem] text-white'/>
+                </div>
+              </a>
             </div>
           </div>
         </div>
