@@ -19,13 +19,13 @@ module.exports = {
 
         typing: {
           '0%': { width: '0ch' },
-          '50%': { width: '34ch' }, // full text
-          '100%': { width: '0ch' }, // delete again                                                   
+          '50%': { width: '34ch' }, 
+          '100%': { width: '0ch' },                                                  
         },
 
         blink: {
           '0%, 100%': { borderColor: 'transparent' },
-          '50%': { borderColor: '#00b3b3' }, // cursor color
+          '50%': { borderColor: '#00b3b3' }, 
         },
 
         moveAround: {
@@ -38,8 +38,8 @@ module.exports = {
 
       animation: {
         'gradient-x': 'gradient-x 6s ease infinite',
-        'typing': 'typing 6s steps(34) infinite', // typing effect
-        'blink': 'blink 0.7s step-end infinite', // blinking cursor
+        'typing': 'typing 6s steps(34) infinite', 
+        'blink': 'blink 0.7s step-end infinite', 
         'moveAround': 'moveAround 2s infinite ease-in-out',
       },
     },
