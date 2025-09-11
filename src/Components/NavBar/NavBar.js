@@ -19,7 +19,7 @@ function NavBar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + 100; // offset for navbar height
+      const scrollPosition = window.scrollY + 100; 
       menuItems.forEach((item) => {
         const section = document.querySelector(item.link);
         if (section) {
