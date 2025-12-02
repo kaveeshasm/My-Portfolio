@@ -1,4 +1,5 @@
 import React from 'react'
+import Nextjs from './Nextjs.png'
 
 function AboutMe(){
 
@@ -86,7 +87,7 @@ function AboutMe(){
                         <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/BackendService/firebase-icon.svg" alt="Firebase"/>
                     </div>
                     <div className='flex items-center justify-center border-2 border-[#00e6e6] w-[6rem] h-[6rem] rounded-full drop-shadow-[0_0_40px_#00ffff] hover:scale-110'>
-                        <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Static/nextjs-2.svg" alt="Nextjs"  className='h-[5rem] w-[5rem] drop-shadow-[0_0_40px_#00ffff]'/>
+                        <img src={Nextjs} alt="Nextjs"  className='h-[5rem] w-[5rem]'/>
                     </div>
                     <div className='flex items-center justify-center border-2 border-[#00e6e6] w-[6rem] h-[6rem] rounded-full drop-shadow-[0_0_40px_#00ffff] hover:scale-110'>
                         <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Mobile/flutterio-icon.svg" alt="Flutter"/>
