@@ -12,7 +12,7 @@ function Projects() {
       <div className='flex justify-center'><span className='text-[#00e6e6] text-[2rem] lg:text-[3rem] font-inter animate-pulse drop-shadow-[0_0_20px_#00ffff] drop-shadow-[0_0_40px_#00ffff]'>My Projects</span></div>
 
       <div className='mt-[2.5rem] lg:flex lg:justify-center lg:gap-28 lg:mt-[3rem]'>
-        <div className='ml-[1.9rem] h-[32rem] w-[22rem] border-2 border-white rounded-[1rem] lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
+        <div className='mt-[2.5rem] ml-[1.9rem] h-[32rem] w-[22rem] border-2 border-white rounded-[1rem] lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
           <img src={GPAPlus} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] h-[12rem] w-[22rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' />
           <div className='ml-[0.7rem] mt-[0.5rem] lg:ml-[0.7rem] lg:mt-[0.5rem] lg:mr-[0.7rem]'>
             <span className='text-white font-raleway text-[1.5rem]'>GPA+</span><br />
@@ -42,7 +42,7 @@ function Projects() {
         </div>
 
 
-        <div className='ml-[1.9rem] h-[32rem] w-[22rem] border-2 border-white rounded-[1rem] lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
+        <div className='mt-[2.5rem] ml-[1.9rem] h-[32rem] w-[22rem] border-2 border-white rounded-[1rem] lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
           <img src={WebifyMe} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] h-[12rem] w-[22rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' />
           <div className='ml-[0.7rem] mt-[0.5rem] lg:ml-[0.7rem] lg:mt-[0.5rem] lg:mr-[0.7rem]'>
             <span className='text-white font-raleway text-[1.5rem]'>Webify.me</span><br />
