@@ -5,6 +5,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
+import Certificates from './Components/Certificates/Certificates'
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
 
       <section id="projects">
         <Projects />
+      </section>
+
+      <section id="certificates">
+        <Certificates />
       </section>
 
       <section id="contact">
