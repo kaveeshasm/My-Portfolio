@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className='lg:grid grid-cols-2'>
         <div className='flex justify-center'>
-          <img className='rounded-full mt-[2.5rem] mb-[2.5rem] h-[15rem] w-[15rem] border-[0.5rem] border-black border-double shadow-[0_0_30px_20px_rgba(0,128,128,0.8)] lg:h-[30rem] lg:w-[30rem] lg:mt-[5rem] lg:mb-[5rem] relative z-10' src={Image} />
+          <img className='rounded-full mt-[2.5rem] mb-[2.5rem] h-[15rem] w-[15rem] border-[0.5rem] border-black border-double shadow-[0_0_30px_20px_rgba(0,128,128,0.8)] lg:h-[30rem] lg:w-[30rem] lg:mt-[5rem] lg:mb-[5rem] relative z-10' src={Image} alt='' />
         </div>
         <div className='text-white ml-[1.5rem] text-center lg:text-left lg:ml-0 lg:mt-[3rem]'>
           <span className='text-4xl font-inter bg-gradient-to-r from-[#00b3b3] via-[#00e6e6] to-[#ffffff] bg-clip-text text-transparent [background-size:400%_400%] animate-gradient-x lg:text-6xl'>I'm Kaveesha</span><br />

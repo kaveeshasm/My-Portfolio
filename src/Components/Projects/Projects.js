@@ -13,7 +13,7 @@ function Projects() {
 
       <div className='mt-[2.5rem] lg:flex lg:justify-center lg:gap-28 lg:mt-[3rem]'>
         <div className='mt-[2.5rem] ml-[1.9rem] h-[32rem] w-[22rem] border-2 border-white rounded-[1rem] lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
-          <img src={GPAPlus} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] h-[12rem] w-[22rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' />
+          <img src={GPAPlus} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] h-[12rem] w-[22rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' alt='' />
           <div className='ml-[0.7rem] mt-[0.5rem] lg:ml-[0.7rem] lg:mt-[0.5rem] lg:mr-[0.7rem]'>
             <span className='text-white font-raleway text-[1.5rem]'>GPA+</span><br />
             <div className='mt-[0.5rem]'> 
@@ -43,7 +43,7 @@ function Projects() {
 
 
         <div className='mt-[2.5rem] ml-[1.9rem] h-[32rem] w-[22rem] border-2 border-white rounded-[1rem] lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
-          <img src={WebifyMe} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] h-[12rem] w-[22rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' />
+          <img src={WebifyMe} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] h-[12rem] w-[22rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' alt='' />
           <div className='ml-[0.7rem] mt-[0.5rem] lg:ml-[0.7rem] lg:mt-[0.5rem] lg:mr-[0.7rem]'>
             <span className='text-white font-raleway text-[1.5rem]'>Webify.me</span><br />
             <div className='mt-[0.5rem]'>
@@ -77,7 +77,7 @@ function Projects() {
       </div>
       <div className='mt-[2.5rem] lg:flex lg:justify-center lg:gap-28 lg:mt-[3rem]'>
         <div className='ml-[1.9rem] h-[30rem] w-[22rem] border-2 border-white mt-[2.5rem] rounded-[1rem] lg:mt-0 lg:ml-0 lg:h-[33.5rem] lg:w-[30rem] lg:rounded-[2rem] hover:scale-105'>
-          <img src={ApexHealth} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' />
+          <img src={ApexHealth} className='h-[12rem] w-[22rem] rounded-t-[0.8rem] lg:h-[12rem] lg:w-[30rem] lg:rounded-t-[1.85rem]' alt='' />
           <div className='ml-[0.7rem] mt-[0.5rem] lg:ml-[0.7rem] lg:mt-[0.5rem]'>
             <span className='text-white font-raleway text-[1.5rem]'>Apex Health Hospital</span><br />
             <div className='mt-[0.5rem]'>
