@@ -65,20 +65,22 @@ export default function Certificates() {
             <h3 className="text-2xl font-bold mb-2"> {selectedCert.title} </h3>
             <p className="text-gray-600 mb-1"> Issued by: {selectedCert.issuer} </p>
             <p className="text-gray-500 mb-6"> Year: {selectedCert.year} </p>
-            </div>
-            </div>
-        )}
 
-        {selectedCert.credentialUrl && (
+            {selectedCert.credentialUrl && (
               <a
-                href={selectedCert.credentialUrl}
+                href={selectedCert.credentialURL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-indigo-600 text-white px-5 py-2 rounded-xl font-medium hover:bg-indigo-700 transition duration-300"
               >
                 View Credential
               </a>
+            )}
+           </div>
+         </div>
         )}
+
+        
 
     </div>
   )
