@@ -66,11 +66,11 @@ export default function Certificates() {
             <p className="text-gray-600 mb-1"> Issued by: {selectedCert.issuer} </p>
             <p className="text-gray-500 mb-6"> Year: {selectedCert.year} </p>
 
-            {selectedCert.credentialUrl && (
+            {selectedCert.credentialURL && (
               <a
                 href={selectedCert.credentialURL}
                 target="_blank"
-                rel="noopener noreferrer"
+                
                 className="inline-flex items-center gap-2 bg-indigo-600 text-white px-5 py-2 rounded-xl font-medium hover:bg-indigo-700 transition duration-300"
               >
                 View Credential
