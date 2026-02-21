@@ -45,6 +45,40 @@ export default function Certificates() {
             ))}
         </div>
 
+        {selectedCert && (
+            <div
+            className='fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 px-4'
+            onClick={() => setSelectedCert(null)}
+            >
+                <div
+                    className="bg-white rounded-2xl max-w-2xl w-full p-6 relative animate-fadeIn"
+                    onClick={(e) => e.stopPropagation()}
+                >
+
+            <button
+              onClick={() => setSelectedCert(null)}
+              className="absolute top-4 right-4 text-gray-500 hover:text-black text-xl"
+            >
+              ✕
+            </button>
+            <img src={selectedCert.image} alt={selectedCert.title} className="w-full rounded-lg mb-6"/>
+            <h3 className="text-2xl font-bold mb-2"> {selectedCert.title} </h3>
+            <p className="text-gray-600 mb-1"> Issued by: {selectedCert.issuer} </p>
+            <p className="text-gray-500 mb-6"> Year: {selectedCert.year} </p>
+            </div>
+            </div>
+        )}
+
+        {selectedCert.credentialUrl && (
+              <a
+                href={selectedCert.credentialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-indigo-600 text-white px-5 py-2 rounded-xl font-medium hover:bg-indigo-700 transition duration-300"
+              >
+                View Credential
+              </a>
+        )}
 
     </div>
   )
