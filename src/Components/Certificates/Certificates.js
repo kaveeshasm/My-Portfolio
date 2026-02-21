@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import Ballerina from './Ballerina.png'
+import TechXplore from './TechXplore.png'
 
 export default function Certificates() {
 
@@ -11,7 +13,7 @@ export default function Certificates() {
             title: "Innovate With Ballerina 2025",
             issuer: "IEEE Student Branch University of Moratuwa",
             year: "2026",
-            image: "/Ballerina.png",
+            image: Ballerina,
             credentialURL: "https://certificates.ballerina.io/IWB25P-na7fhi287N"
         },
         {
@@ -19,7 +21,7 @@ export default function Certificates() {
             title: "TechXplore Edition 2.0",
             issuer: "Association of Computing Students - University of Sri Jayewardenepura",
             year: "2026",
-            image: "/TechXplore.png",
+            image: TechXplore,
             credentialURL: ""
         },
     ];
@@ -61,7 +63,7 @@ export default function Certificates() {
             >
               ✕
             </button>
-            <img src={selectedCert.image} alt={selectedCert.title} className="w-full rounded-lg mb-6"/>
+            <img src={selectedCert.image} alt={selectedCert.title} className="w-auto h-64 rounded-lg mb-6"/>
             <h3 className="text-2xl font-bold mb-2"> {selectedCert.title} </h3>
             <p className="text-gray-600 mb-1"> Issued by: {selectedCert.issuer} </p>
             <p className="text-gray-500 mb-6"> Year: {selectedCert.year} </p>
@@ -70,7 +72,7 @@ export default function Certificates() {
               <a
                 href={selectedCert.credentialURL}
                 target="_blank"
-                
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-indigo-600 text-white px-5 py-2 rounded-xl font-medium hover:bg-indigo-700 transition duration-300"
               >
                 View Credential
