@@ -79,9 +79,6 @@ export default function Certificates() {
            </div>
          </div>
         )}
-
-        
-
     </div>
   )
 }
