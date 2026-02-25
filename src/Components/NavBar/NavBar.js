@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import { IoClose, IoMenu } from "react-icons/io5";
 import { FaHome, FaUser, FaFolderOpen } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { GrCertificate } from "react-icons/gr";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,6 +16,7 @@ function NavBar() {
     { name: "About Me", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
+    { name: "Certificates", link: "#certificates" },
   ], []);
 
   useEffect(() => {
@@ -59,6 +61,7 @@ function NavBar() {
                 {item.name === "About Me" && <FaUser size={18} />}
                 {item.name === "Projects" && <FaFolderOpen size={18} />}
                 {item.name === "Contact" && <IoMdMail size={18} />}
+                {item.name === "Certificates" && <GrCertificate size={18} />}
                 <span>{item.name}</span>
               </a>
             ))}
@@ -93,6 +96,7 @@ function NavBar() {
                 {item.name === "About Me" && <FaUser size={18} />}
                 {item.name === "Projects" && <FaFolderOpen size={18} />}
                 {item.name === "Contact" && <IoMdMail size={18} />}
+                {item.name === "Certificates" && <GrCertificate size={18} />}
                 <span>{item.name}</span>
               </a>
             ))}
