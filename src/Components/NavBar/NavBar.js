@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Box from "@mui/material/Box";
@@ -10,16 +10,16 @@ function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
 
-  const menuItems = [
+  const menuItems = useMemo(() => [
     { name: "Home", link: "#home" },
     { name: "About Me", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
-  ];
+  ], []);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + 100; 
+      const scrollPosition = window.scrollY + 100;
       menuItems.forEach((item) => {
         const section = document.querySelector(item.link);
         if (section) {
@@ -34,7 +34,7 @@ function NavBar() {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [menuItems]);
 
   return (
     <Box sx={{ flexGrow: 1 }}>
