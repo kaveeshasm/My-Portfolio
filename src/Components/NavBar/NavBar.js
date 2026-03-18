@@ -15,8 +15,9 @@ function NavBar() {
     { name: "Home", link: "#home" },
     { name: "About Me", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Contact", link: "#contact" },
     { name: "Certificates", link: "#certificates" },
+    { name: "Contact", link: "#contact" },
+    
   ], []);
 
   useEffect(() => {
@@ -60,8 +61,8 @@ function NavBar() {
                 {item.name === "Home" && <FaHome size={18} />}
                 {item.name === "About Me" && <FaUser size={18} />}
                 {item.name === "Projects" && <FaFolderOpen size={18} />}
-                {item.name === "Contact" && <IoMdMail size={18} />}
                 {item.name === "Certificates" && <GrCertificate size={18} />}
+                {item.name === "Contact" && <IoMdMail size={18} />}
                 <span>{item.name}</span>
               </a>
             ))}
@@ -95,8 +96,8 @@ function NavBar() {
                 {item.name === "Home" && <FaHome size={18} />}
                 {item.name === "About Me" && <FaUser size={18} />}
                 {item.name === "Projects" && <FaFolderOpen size={18} />}
-                {item.name === "Contact" && <IoMdMail size={18} />}
                 {item.name === "Certificates" && <GrCertificate size={18} />}
+                {item.name === "Contact" && <IoMdMail size={18} />}
                 <span>{item.name}</span>
               </a>
             ))}

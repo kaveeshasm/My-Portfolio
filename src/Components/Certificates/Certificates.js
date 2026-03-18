@@ -17,6 +17,9 @@ import IntroToJS from './IntroToJS.png'
 import JavaProgramming from './JavaProgramming.png'
 import MoraXtreme from './MoraXtreme.png'
 import CCNA from './CCNA.png'
+import ReactNativeEssentialTraining from './ReactNativeEssentialTraining.png'
+import MicrosoftAzureML from './MicrosoftAzureMLFundamentals.png'
+
 
 export default function Certificates() {
 
@@ -25,7 +28,7 @@ export default function Certificates() {
 
     const certificates = [
         {
-            id: 17,
+            id: 1,
             title: "CCNA Introduction to Networks",
             issuer: "Cisco Networking Academy",
             year: "2021",
@@ -33,7 +36,7 @@ export default function Certificates() {
             credentialURL: ""
         },
         {
-            id: 16,
+            id: 2,
             title: "MoraXtreme 9.0",
             issuer: "IEEE Student Branch University of Moratuwa",
             year: "2024",
@@ -41,7 +44,7 @@ export default function Certificates() {
             credentialURL: ""
         },
         {
-            id: 15,
+            id: 3,
             title: "Java Programming",
             issuer: "Great Learning",
             year: "2024",
@@ -49,7 +52,7 @@ export default function Certificates() {
             credentialURL: "https://www.mygreatlearning.com/certificate/UEKAEWFP"
         },
         {
-            id: 14,
+            id: 4,
             title: "Introduction to JavaScript",
             issuer: "Great Learning",
             year: "2024",
@@ -57,7 +60,7 @@ export default function Certificates() {
             credentialURL: "https://www.mygreatlearning.com/certificate/FYWNKEFC"
         },
         {
-            id: 13,
+            id: 5,
             title: "ReactJS for Beginners",
             issuer: "Simplilearn",
             year: "2025",
@@ -65,7 +68,7 @@ export default function Certificates() {
             credentialURL: "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzI1IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODY4MTg1M185MDQ3NTgzMTc1MzQxNjAzNDkxOC5wbmciLCJ1c2VybmFtZSI6Ik0uIEthdmVlc2hhIFNhbmRlZXBhbmkifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4215%2FReactJS-for-Beginners%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1524456434674918906&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVd84P8fbNMyrJCEuyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAM8L3zhBAAAA"
         }, 
         {
-            id: 12,
+            id: 6,
             title: "PearlHack V3.0",
             issuer: "IEEE WIE Student Branch Affinity Group of SUSL",
             year: "2025",
@@ -73,7 +76,7 @@ export default function Certificates() {
             credentialURL: ""
         },
         {
-            id: 11,
+            id: 7,
             title: "Google AI Essentials",
             issuer: "Google",
             year: "2025",
@@ -81,7 +84,7 @@ export default function Certificates() {
             credentialURL: "https://www.coursera.org/account/accomplishments/specialization/JFTH2LSVNG87?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"
         },
         {
-            id: 10,
+            id: 8,
             title: "Google AI Essentials",
             issuer: "Google",
             year: "2025",
@@ -97,7 +100,7 @@ export default function Certificates() {
             credentialURL: "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIyMjk3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTA0ODM1N185MDQ3NTgzMTc1ODgyNDg1Njg0OS5wbmciLCJ1c2VybmFtZSI6Ik0uIEthdmVlc2hhIFNhbmRlZXBhbmkifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4951%2FIntroduction-to-Flutter-Course-Online%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1524456434674918906&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVLypKjHAKM8mLCE%2ByrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAJproMZBAAAA"
         }, 
         {
-            id: 8,
+            id: 10,
             title: "TensorForge '25",
             issuer: "IEEE Computer Society of KDU",
             year: "2025",
@@ -105,7 +108,7 @@ export default function Certificates() {
             credentialURL: ""
         },
         {
-            id: 7,
+            id: 11,
             title: "J'puraXtreme 2.0",
             issuer: "IEEE CS Student Branch Chapter - University of Sri Jayewardenepura",
             year: "2025",
@@ -113,7 +116,7 @@ export default function Certificates() {
             credentialURL: "https://drive.google.com/file/d/16WNx5-A-NLQ-R-NsvOzlZZb5Q8xKY10y/view"
         }, 
         {
-            id: 6,
+            id: 12,
             title: "GIT, GitLab, GitHub Fundamentals for Software Developers",
             issuer: "Udemy",
             year: "2025",
@@ -121,7 +124,7 @@ export default function Certificates() {
             credentialURL: "https://www.udemy.com/certificate/UC-3db3e5f1-b10e-45ae-b9f0-0f8b86cce501/"
         },
         {
-            id: 5,
+            id: 13,
             title: "CSS, Bootstrap, JavaScript, PHP Full Stack Crash Course",
             issuer: "Udemy",
             year: "2025",
@@ -129,7 +132,7 @@ export default function Certificates() {
             credentialURL: "https://www.udemy.com/certificate/UC-ae244c7e-cc51-463a-9b60-84a4b42a49c0/"
         },
         {
-            id: 4,
+            id: 14,
             title: "Introduction to FinOps",
             issuer: "FinOps Foundation",
             year: "2025",
@@ -137,7 +140,7 @@ export default function Certificates() {
             credentialURL: "https://verify.skilljar.com/c/ckm9n9wjkff9"
         }, 
         {
-            id: 3,
+            id: 15,
             title: "Build Your Own AI Chatbot with Azure AI Foundry",
             issuer: "Microsoft Student Ambassadors",
             year: "2025",
@@ -145,7 +148,7 @@ export default function Certificates() {
             credentialURL: ""
         },
         {
-            id: 2,
+            id: 16,
             title: "TechXplore Edition 2.0",
             issuer: "Association of Computing Students - University of Sri Jayewardenepura",
             year: "2026",
@@ -153,13 +156,29 @@ export default function Certificates() {
             credentialURL: ""
         },
         {
-            id: 1,
+            id: 17,
             title: "Innovate With Ballerina 2025",
             issuer: "IEEE Student Branch University of Moratuwa",
             year: "2026",
             image: Ballerina,
             credentialURL: "https://certificates.ballerina.io/IWB25P-na7fhi287N"
-        },       
+        }, 
+        {
+            id: 18,
+            title: "React Native Essential Training",
+            issuer: "LinkedIn Learning Community",
+            year: "2026",
+            image: ReactNativeEssentialTraining,
+            credentialURL: "https://www.linkedin.com/learning/certificates/c4622c5356a2855fc89cf565d8bd34d86376a19a4aebb9c7f799f56fe68dc98c?trk=share_certificate"
+        },
+        {
+            id: 19,
+            title: "Microsoft Azure Machine Learning Fundamentals",
+            issuer: "LinkedIn Learning Community",
+            year: "2026",
+            image: MicrosoftAzureML,
+            credentialURL: "https://www.linkedin.com/learning/certificates/5a684bbf5cbfd59159487de04a65d000611588ead8e73fe140633777f61afb20?trk=share_certificate"
+        },      
     ];
 
     const sortedCertificates = [...certificates].reverse();
