@@ -19,6 +19,8 @@ import MoraXtreme from './MoraXtreme.png'
 import CCNA from './CCNA.png'
 import ReactNativeEssentialTraining from './ReactNativeEssentialTraining.png'
 import MicrosoftAzureML from './MicrosoftAzureMLFundamentals.png'
+import Docker101 from './Docker101.png'
+import APILearning101 from './APILearning101.png'
 
 
 export default function Certificates() {
@@ -165,6 +167,14 @@ export default function Certificates() {
         }, 
         {
             id: 18,
+            title: "Docker 101",
+            issuer: "Nisal Gunawardhana",
+            year: "2026",
+            image: Docker101,
+            credentialURL: ""
+        },
+        {
+            id: 19,
             title: "React Native Essential Training",
             issuer: "LinkedIn Learning Community",
             year: "2026",
@@ -172,13 +182,21 @@ export default function Certificates() {
             credentialURL: "https://www.linkedin.com/learning/certificates/c4622c5356a2855fc89cf565d8bd34d86376a19a4aebb9c7f799f56fe68dc98c?trk=share_certificate"
         },
         {
-            id: 19,
+            id: 20,
             title: "Microsoft Azure Machine Learning Fundamentals",
             issuer: "LinkedIn Learning Community",
             year: "2026",
             image: MicrosoftAzureML,
             credentialURL: "https://www.linkedin.com/learning/certificates/5a684bbf5cbfd59159487de04a65d000611588ead8e73fe140633777f61afb20?trk=share_certificate"
-        },      
+        },  
+        {
+            id: 21,
+            title: "API Learning 101",
+            issuer: "Nisal Gunawardhana",
+            year: "2026",
+            image: APILearning101,
+            credentialURL: ""
+        },         
     ];
 
     const sortedCertificates = [...certificates].reverse();
