@@ -21,6 +21,7 @@ import ReactNativeEssentialTraining from './ReactNativeEssentialTraining.png'
 import MicrosoftAzureML from './MicrosoftAzureMLFundamentals.png'
 import Docker101 from './Docker101.png'
 import APILearning101 from './APILearning101.png'
+import Python from './Python.png'
 
 
 export default function Certificates() {
@@ -196,7 +197,15 @@ export default function Certificates() {
             year: "2026",
             image: APILearning101,
             credentialURL: ""
-        },         
+        },
+        {
+            id: 22,
+            title: "Python",
+            issuer: "freeCodeCamp",
+            year: "2026",
+            image: Python,
+            credentialURL: "https://freecodecamp.org/certification/fcc-e9e13361-5349-4cb4-a376-8c02c9cd2999/python-v9"
+        },                
     ];
 
     const sortedCertificates = [...certificates].reverse();
