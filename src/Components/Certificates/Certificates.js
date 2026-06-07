@@ -22,7 +22,7 @@ import MicrosoftAzureML from './MicrosoftAzureMLFundamentals.png'
 import Docker101 from './Docker101.png'
 import APILearning101 from './APILearning101.png'
 import Python from './Python.png'
-
+import AIthon from './AIthon.png'
 
 export default function Certificates() {
 
@@ -205,6 +205,14 @@ export default function Certificates() {
             year: "2026",
             image: Python,
             credentialURL: "https://freecodecamp.org/certification/fcc-e9e13361-5349-4cb4-a376-8c02c9cd2999/python-v9"
+        },
+        {
+            id: 23,
+            title: "AIthon 2026",
+            issuer: "Hemas Technology and Transformation Department",
+            year: "2026",
+            image: AIthon,
+            credentialURL: ""
         },                
     ];
 
