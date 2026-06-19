@@ -23,6 +23,7 @@ import Docker101 from './Docker101.png'
 import APILearning101 from './APILearning101.png'
 import Python from './Python.png'
 import AIthon from './AIthon.png'
+import AISkillFest2026 from './AISkillFest2026.png'
 
 export default function Certificates() {
 
@@ -213,7 +214,15 @@ export default function Certificates() {
             year: "2026",
             image: AIthon,
             credentialURL: ""
-        },                
+        },
+        {
+            id: 24,
+            title: "Microsoft AI Skill Fest 2026",
+            issuer: "Microsoft",
+            year: "2026",
+            image: AISkillFest2026,
+            credentialURL: "https://www.credly.com/badges/76c44dd8-63db-4ab9-8589-fc86a9ae9815/public_url"
+        },                    
     ];
 
     const sortedCertificates = [...certificates].reverse();
