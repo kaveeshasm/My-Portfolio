@@ -24,6 +24,7 @@ import APILearning101 from './APILearning101.png'
 import Python from './Python.png'
 import AIthon from './AIthon.png'
 import AISkillFest2026 from './AISkillFest2026.png'
+import MoraXtreme10_0 from './MoraXtreme10.0.png'
 
 export default function Certificates() {
 
@@ -222,7 +223,15 @@ export default function Certificates() {
             year: "2026",
             image: AISkillFest2026,
             credentialURL: "https://www.credly.com/badges/76c44dd8-63db-4ab9-8589-fc86a9ae9815/public_url"
-        },                    
+        },
+        {
+            id: 25,
+            title: "MoraXtreme 10.0",
+            issuer: "IEEE Student Branch University of Moratuwa",
+            year: "2026",
+            image: MoraXtreme10_0,
+            credentialURL: ""
+        },                      
     ];
 
     const sortedCertificates = [...certificates].reverse();
