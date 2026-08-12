@@ -98,6 +98,12 @@ function AboutMe(){
                     <div className='flex items-center justify-center border-2 border-[#00e6e6] w-[6rem] h-[6rem] rounded-full drop-shadow-[0_0_40px_#00ffff] hover:scale-110'>
                         <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Mobile/flutterio-icon.svg" alt="Flutter"/>
                     </div>
+                    <div className='flex items-center justify-center border-2 border-[#00e6e6] w-[6rem] h-[6rem] rounded-full drop-shadow-[0_0_40px_#00ffff] hover:scale-110'>
+                        <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Software/getpostman-icon.svg" alt="Postman"/>
+                    </div>
+                    <div className='flex items-center justify-center border-2 border-[#00e6e6] w-[6rem] h-[6rem] rounded-full drop-shadow-[0_0_40px_#00ffff] hover:scale-110'>
+                        <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/php-original.svg" alt="PHP" />
+                    </div>
                 </div>
                 </div>
             </div>

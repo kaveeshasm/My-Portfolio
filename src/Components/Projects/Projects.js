@@ -3,11 +3,24 @@ import ApexHealth from "./ApexHealth.png";
 import WebifyMe from "./WebifyMe.png";
 import GPAPlus from "./GPAPlus.png";
 import SmileHub from "./SmileHub.png";
+import MediciBot from "./MediciBot.png";
 import Nextjs from "../AboutMe/Nextjs.png";
 import { PiGlobeThin } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";
 
 const projects = [
+  {
+    title: "MediciBot",
+    image: MediciBot,
+    description:
+      "MediciBot - AI-powered medicine information chatbot that uses OpenFDA and Google Gemini to provide clear, structured information about medicines. It supports natural-language queries, misspelled and brand names, along with intelligent recognition and smart error handling.",
+    tech: [
+      "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/react-original-wordmark.svg",
+      "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/css3-original-wordmark.svg",
+    ],
+    live: "https://medicibot.vercel.app/",
+    github: "https://github.com/kaveeshasm/MediciBot",
+  },
   {
     title: "Smile Hub",
     image: SmileHub,
