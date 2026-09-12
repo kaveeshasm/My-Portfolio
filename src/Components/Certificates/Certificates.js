@@ -25,6 +25,7 @@ import Python from './Python.png'
 import AIthon from './AIthon.png'
 import AISkillFest2026 from './AISkillFest2026.png'
 import MoraXtreme10_0 from './MoraXtreme10.0.png'
+import Genesiz26 from './Genesiz26.png'
 
 export default function Certificates() {
 
@@ -230,6 +231,14 @@ export default function Certificates() {
             issuer: "IEEE Student Branch University of Moratuwa",
             year: "2026",
             image: MoraXtreme10_0,
+            credentialURL: ""
+        },
+        {
+            id: 26,
+            title: "Genesiz'26",
+            issuer: "Electronic Robotics & Innovation Club of General Sir John Kotelawala Defence University",
+            year: "2026",
+            image: Genesiz26,
             credentialURL: ""
         },                      
     ];

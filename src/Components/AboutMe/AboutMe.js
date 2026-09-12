@@ -11,10 +11,12 @@ function AboutMe(){
                     <div className='border-[0.2rem] border-[#00e6e6] mt-[2rem] w-[22rem] lg:w-[30rem]  lg:mt-[2.5rem] border-t-0 border-b-0 border-r-0 ps-[0.8rem]'>
                         <span className='text-white text-[1.3rem] lg:text-[2rem] font-inter'>Who I am</span><br />
                         <span className='text-white'>
-                            I’m Kaveesha, currently an undergraduate at the Faculty of Computing, 
-                            Sabaragamuwa University of Sri Lanka.I have a strong interest in frontend 
-                            development and enjoy crafting responsive and intuitive web interfaces. 
-                            I’m always eager to explore and apply modern web technologies in my projects.
+                            I’m Kaveesha, currently an undergraduate at the Faculty of Computing, Sabaragamuwa University 
+                            of Sri Lanka. I’m passionate about software engineering and enjoy building practical, reliable, 
+                            and maintainable software solutions. I have experience developing full-stack and AI-powered 
+                            applications, working with APIs, databases, and modern technologies. I’m continuously learning 
+                            and exploring new technologies to improve my skills and build meaningful solutions to real-world 
+                            problems.
                         </span>
                     </div>
                     

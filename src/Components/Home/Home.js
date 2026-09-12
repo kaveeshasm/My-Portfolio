@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from './Image.jpg'
-import { FaFacebook, FaGithub, FaLinkedin, FaUser } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaUser, FaFileDownload } from "react-icons/fa";
 
 function Home() {
   return (
@@ -11,12 +11,13 @@ function Home() {
         <div className='text-white ml-[1.5rem] text-center lg:text-left lg:ml-0 lg:mt-[3rem]'>
           <span className='text-4xl font-inter bg-gradient-to-r from-[#00b3b3] via-[#00e6e6] to-[#ffffff] bg-clip-text text-transparent [background-size:400%_400%] animate-gradient-x lg:text-6xl'>I'm Kaveesha</span><br />
           <span className='text-lg font-poppins text-cyan-600 overflow-hidden whitespace-nowrap border-r-4 border-[#00b3b3] 
-           w-[34ch] inline-block  animate-typing animate-blink lg:text-3xl'>Passionate about Frontend Development</span><br />
+           w-[34ch] inline-block  animate-typing animate-blink lg:text-3xl'>Passionate about Full Stack Development</span><br />
           <span className='text-lg font-poppins text-cyan-700 lg:text-[1.1rem]'>Undergraduate at the Faculty of Computing, Sabaragamuwa University of Sri Lanka.</span><br /><br />
-          <span className='text-base font-openSans lg:text-[1.1rem]'>I focus on building clean, responsive, and user-friendly frontend experiences, while continuously exploring modern technologies.</span>
+          <span className='text-base font-openSans lg:text-[1.1rem]'>I focus on building practical, reliable, and maintainable software solutions, with interests in full-stack development, AI-powered applications, API integration, database management, and problem-solving.</span>
 
-          <div className='flex justify-center lg:justify-start mt-[2.5rem] lg:mt-[4rem]'>
+          <div className='flex justify-center lg:justify-start mt-[2.5rem] lg:mt-[4rem] gap-6'>
             <a href='#about'><button className='flex items-center justify-center w-[10rem] h-[2.5rem] lg:w-[10rem] lg:h-[5rem] border-2 border-[#00e6e6] rounded-xl hover:animate-moveAround hover:shadow-[0_0_20px_5px_#00e6e6]'><FaUser className='flex mr-[1rem] lg:text-lg text-[#00e6e6]' /><span className='text-[#00e6e6]'>About Me</span></button></a>
+            <a href="/Kaveesha-Sandeepani-CV.pdf" download="Kaveesha-Sandeepani-CV.pdf"><button className='flex items-center justify-center w-[10rem] h-[2.5rem] lg:w-[10rem] lg:h-[5rem] border-2 border-[#00e6e6] rounded-xl hover:shadow-[0_0_20px_5px_#00e6e6]'><FaFileDownload className='flex mr-[1rem] lg:text-lg text-[#00e6e6]' /><span className='text-[#00e6e6]'>Download CV</span></button></a>
           </div>
 
           <div className='mt-[2.5rem] lg:mt-[3.5rem]'>

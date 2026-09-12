@@ -28,7 +28,7 @@ function Footer() {
       </div>
       <hr />
       <div className='flex flex-col items-center mt-[1rem]'>
-        <span className='text-white'>&copy; 2025 Kaveesha Sandeepani. All Rights Reserved.</span>
+        <span className='text-white'>&copy; 2026 Kaveesha Sandeepani. All Rights Reserved.</span>
         <span className='text-white mb-[1rem]'>Design and Development by Kaveesha Sandeepani.</span>
       </div>
     </div>
