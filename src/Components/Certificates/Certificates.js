@@ -26,6 +26,7 @@ import AIthon from './AIthon.png'
 import AISkillFest2026 from './AISkillFest2026.png'
 import MoraXtreme10_0 from './MoraXtreme10.0.png'
 import Genesiz26 from './Genesiz26.png'
+import IntrotoML from './IntrotoML.png' 
 
 export default function Certificates() {
 
@@ -239,6 +240,14 @@ export default function Certificates() {
             issuer: "Electronic Robotics & Innovation Club of General Sir John Kotelawala Defence University",
             year: "2026",
             image: Genesiz26,
+            credentialURL: ""
+        },     
+        {
+            id: 27,
+            title: "Intro to Machine Learning",
+            issuer: "Kaggle",
+            year: "2026",
+            image: IntrotoML,
             credentialURL: ""
         },                      
     ];
