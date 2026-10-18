@@ -26,7 +26,11 @@ import AIthon from './AIthon.png'
 import AISkillFest2026 from './AISkillFest2026.png'
 import MoraXtreme10_0 from './MoraXtreme10.0.png'
 import Genesiz26 from './Genesiz26.png'
-import IntrotoML from './IntrotoML.png' 
+import IntrotoML from './IntrotoML.png'
+import AIConcepts from './AIConcepts.png'
+import AngularBasics from './AngularBasics.png'
+import JPuraXtreme3 from './JPuraXtreme3.png'
+import BeautyofCloud2 from './BeautyofCloud2.png' 
 
 export default function Certificates() {
 
@@ -249,7 +253,39 @@ export default function Certificates() {
             year: "2026",
             image: IntrotoML,
             credentialURL: ""
-        },                      
+        },
+        {
+            id: 28,
+            title: "AI Concepts for Developers and Technology Professionals",
+            issuer: "Microsoft",
+            year: "2026",
+            image: AIConcepts,
+            credentialURL: ""
+        },
+        {
+            id: 29,
+            title: "Angular Basics",
+            issuer: "Simplilearn",
+            year: "2026",
+            image: AngularBasics,
+            credentialURL: "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzE5IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvMTA3OTYzMzJfOTA0NzU4M18xNzkwNTIwMjU3NDMyLnBuZyIsInVzZXJuYW1lIjoiTS4gS2F2ZWVzaGEgU2FuZGVlcGFuaSJ9&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4207%2FAngular-Basics%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1636419220401414161&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVNwsMys1L8k%2FzNUuyrytKTUstKsrMS49PKsovL04tsvXJzMtOTfHMAwBSUuc2QQAAAA%3D%3D"
+        },
+        {
+            id: 30,
+            title: "J'PuraXtreme 3.0",
+            issuer: "IEEE CS Student Branch Chapter - University of Sri Jayewardenepura",
+            year: "2026",
+            image: JPuraXtreme3,
+            credentialURL: ""
+        },
+        {
+            id: 31,
+            title: "Beauty of Cloud 2.0",
+            issuer: "IEEE CS Student Branch Chapter - University of Sri Jayewardenepura",
+            year: "2026",
+            image: BeautyofCloud2,
+            credentialURL: ""
+        },                        
     ];
 
     const sortedCertificates = [...certificates].reverse();

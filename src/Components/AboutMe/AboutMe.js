@@ -107,6 +107,15 @@ function AboutMe(){
                         <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/php-original.svg" alt="PHP" />
                     </div>
                 </div>
+
+                <div className='hidden lg:block lg:flex lg:justify-center mt-[1.5rem] gap-8'>
+                    <div className='flex items-center justify-center border-2 border-[#00e6e6] w-[6rem] h-[6rem] rounded-full drop-shadow-[0_0_40px_#00ffff] hover:scale-110'>
+                        <img className='w-[4rem] h-[4rem]' src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/angular.svg" alt="Angular"/>
+                    </div>
+                    <div className='flex items-center justify-center border-2 border-[#00e6e6] w-[6rem] h-[6rem] rounded-full drop-shadow-[0_0_40px_#00ffff] hover:scale-110'>
+                        <img className='w-[4rem] h-[4rem]' src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/postgresql-original-wordmark.svg" alt="Postgresql"/>
+                    </div>
+                </div>
                 </div>
             </div>
             

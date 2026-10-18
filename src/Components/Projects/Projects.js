@@ -4,13 +4,26 @@ import WebifyMe from "./WebifyMe.png";
 import GPAPlus from "./GPAPlus.png";
 import SmileHub from "./SmileHub.png";
 import MediciBot from "./MediciBot.png";
+import Ryde from "./Ryde.png";
 import Nextjs from "../AboutMe/Nextjs.png";
 import { PiGlobeThin } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "MediciBot",
+    title: "Ryde [Group Project]",
+    image: Ryde,
+    description:
+      "Ryde is a cloud-based ride-hailing application designed to connect riders with nearby drivers through real-time GPS tracking, location-based driver matching, trip management, and secure payment processing. The application leverages cloud services to support real-time data processing.",
+    tech: [
+      "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Mobile/header_logo.svg",
+      "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/go-original.svg",
+      "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
+    ],
+    github: "https://github.com/nngeek195/RydeApp",
+  },
+  {
+    title: "MediciBot [Individual Project]",
     image: MediciBot,
     description:
       "MediciBot - AI-powered medicine information chatbot that uses OpenFDA and Google Gemini to provide clear, structured information about medicines. It supports natural-language queries, misspelled and brand names, along with intelligent recognition and smart error handling.",
@@ -22,7 +35,7 @@ const projects = [
     github: "https://github.com/kaveeshasm/MediciBot",
   },
   {
-    title: "Smile Hub",
+    title: "Smile Hub [Group Project]",
     image: SmileHub,
     description:
       "SmileHub is a responsive dental clinic website that helps patients easily access services, view clinic details, and book appointments online. It focuses on simplicity, usability, and a smooth user experience. It is built using modern web technologies to ensure fast performance and reliability.",
@@ -35,7 +48,7 @@ const projects = [
     github: "https://github.com/nngeek195/Dental-Smilehub",
   },
   {
-    title: "GPA+",
+    title: "GPA+ [Individual Project]",
     image: GPAPlus,
     description:
       "GPA+ is a simple, user-friendly web app that helps students instantly calculate their GPA with ease. It supports year-based weighting for more accurate results and lets users compare their GPA within a growing community. The platform makes academic tracking clearer, faster, and stress-free.",
@@ -48,7 +61,7 @@ const projects = [
     github: "https://github.com/kaveeshasm/GPA-Calculator",
   },
   {
-    title: "Webify.me",
+    title: "Webify.me [Group Project]",
     image: WebifyMe,
     description:
       "Webify.me is an AI-powered platform that brings your ideas to life as stunning presentations in seconds. It turns concepts into professional, visually engaging slides without any manual effort. The purpose is to make creating presentations fast, effortless, and impressive every time.",
@@ -63,10 +76,10 @@ const projects = [
     github: "https://github.com/nngeek195/webify.me",
   },
   {
-    title: "Apex Health Hospital",
+    title: "Apex Health Hospital [Individual Project]",
     image: ApexHealth,
     description:
-      "Apex Health Hospital is a static website built to present the hospital’s services, facilities, and departments in a clear and professional way. Its purpose is to provide visitors with essential information and highlight the hospital’s commitment to quality care.",
+      "Apex Health Hospital is a static website showcasing the hospital’s services, facilities, and departments through a clear and professional design.",
     tech: [
       "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/html5-original-wordmark.svg",
       "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/css3-original-wordmark.svg",
@@ -121,11 +134,13 @@ function Projects() {
               </div>
 
               <div className="mt-[1.7rem] flex gap-4 lg:mt-[3.2rem]">
-                <a href={project.live}>
-                  <div className="lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]">
-                    <PiGlobeThin className="lg:h-[2rem] lg:w-[2rem] text-white" />
-                  </div>
-                </a>
+                {project.live && (
+                  <a href={project.live}>
+                    <div className="lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]">
+                      <PiGlobeThin className="lg:h-[2rem] lg:w-[2rem] text-white" />
+                    </div>
+                  </a>
+                )}
 
                 <a href={project.github}>
                   <div className="lg:h-[3rem] lg:w-[3rem] rounded-full border-2 border-[#00e6e6] flex items-center justify-center hover:scale-110 hover:shadow-[0_0_15px_4px_#00ffff]">
